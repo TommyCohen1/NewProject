@@ -1,0 +1,194 @@
+*{
+    padding:0;
+    overflow:auto;
+    flex-wrap: wrap;
+}
+html {
+    scroll-behavior: smooth;
+  }
+  
+:root {
+    --main-blue:#0090d9;
+    --main-bg:rgb(45, 45, 45);
+    --main-black:rgba(0, 0, 0, 0.734);
+    --txtcolor:white;
+    --btn-:#6f00ff;
+    --lightblue:##287EC7;
+    }
+
+    body{
+        background: linear-gradient(141deg, #373737 0%, #090909 51%, #111111cf 75%);
+        background-color:var(--main-bg);
+        background-position: fixed;
+        font-family: "Lucida Handwriting", cursive;
+        margin: auto;
+        text-align: center;
+        color: var(--txtcolor);
+        /*font-family: Papyrus;*/
+    }
+    .headline-title{
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+    .title-word{
+        color: var(--main-blue);
+        font-size: 40px;
+    }
+    .sec-title-word{
+        font-size: 40px;
+    }
+
+
+    h1,h2,h3,span,p{
+        color: var(--txtcolor);
+    }
+
+    h1,h2,h3{
+        margin-bottom: 20px;
+    }
+    .first-word{
+        color:var(--main-blue);
+    }
+    .first-word, .second-word{
+        font-size: 30px;
+        margin-top:40px;
+        margin-bottom: 35px;
+        padding: 6px;
+    }
+    p{
+        width: 40%;
+        text-align: center;
+        margin: auto;
+    }
+    hr{
+        width: 25%;
+        border-color: #0090d9;
+    }
+    .coupe-wiki img{
+        width: 250px;
+        height: 250px;
+        display: inline-block;
+    }
+    /*.blue-letter{
+        display: inline-block;
+        font-family: "Lucida Handwriting", cursive; 
+    }
+    .blue-letter::first-letter{
+        color: #0090d9;
+        font-size: 25px;
+    }*/
+    #tommy11 {
+        width: 300px;
+        border-radius: 20px;
+        margin-bottom: 20px;
+    }
+    span{
+        font-size: 30px;
+        font-weight: bold;
+
+    }
+
+    .info-btn a{
+        color: #ddd;
+        text-decoration: underline;
+        font-family: sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+    }
+    .info-btn {
+        text-decoration: none;
+        background-color:var(--lightblue);
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        -webkit-transition-duration: 0.4s; /* Safari */
+        transition-duration: 0.4s;
+    }
+    .info-btn:hover{
+     border-radius: 10%;
+        box-shadow: 0px 0px 16px 6px rgba(0, 94, 255, 0.271),0 17px 50px 0 rgba(255, 255, 255, 0.185);
+    }
+    .topnav{
+        background-color: var(--main-black);
+        overflow: hidden;
+    }
+    .topnav a{
+            float: left;
+            color: #e9e9e9;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+            transition: 0.3s ease;
+            font-weight: bolder;
+       
+    }
+    
+    .topnav a:hover{
+        transition: 0.3s ease-out;
+    }
+    .topnav a.active {
+        background-color: #0090d9;
+        color: rgb(255, 255, 255);
+      }
+      .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+    h1,h2,h3{
+        font-family: sans-serif;
+        text-align: center;
+        font-weight: bolder;
+        font-family: "Lucida Handwriting", cursive;
+    }
+    img{
+    justify-content: center;
+    margin: auto;
+    
+    }
+    #queen {
+        display: inline-block;
+    }
+
+    .hondagallery1 img{
+        display: inline-block;
+        width: 400px;
+    }
+    #mainone{
+        width: 40%;
+    }
+
+    .fa {
+        padding: 10px;
+        font-size: 50px;
+        width: 20px;
+        text-decoration: none;
+        border-radius: 50%;   
+      }
+      
+      .fa:hover {
+        opacity: 0.7;
+      }
+      .fa-facebook {
+        background: #3B5998;
+        color: white;
+        display: inline-block;
+      }
+
+      .footer2 h1{
+        display: inline-block;
+        padding-left: 10px;
+      }
+
+      #secondh1{
+        font-size: 40px;
+      }
+
+      #group1{
+        display: inline-block;
+      }
